@@ -1,5 +1,16 @@
 <tool id="Synthesize an instance" name="Synthesize an instance" version="0.0.1">
   <description>Synthesizes an instance from multiple models trained in CellOrganizer</description>
+  <help>
+  **Description**
+
+  Synthesize instances from multiple trained models saved in multiple formats.
+
+  -----
+
+  **Output**
+
+  A zip containing the desired output files.
+</help>
   <command interpreter="bash">
     model_synth.sh $model1 $model2 $model3 $model4 $model5 $model6 $synthesis $numimgs $resolution $prefix $compression $microscope $samplingmethod $verbose $debug $randomwalk $walksteps $walktype $tif $indexed $blender $sbml
   </command>
@@ -43,17 +54,4 @@
   <outputs>
     <data format="zip" name="output" from_work_dir="output1.zip"/>
   </outputs>
-<help>
-
-**Description**
-
-Synthesize instances from multiple trained models saved in multiple formats.
-
------
-
-**Output**
-
-A zip containing the desired output files.
-
-</help>
 </tool>
