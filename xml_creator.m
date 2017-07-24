@@ -1,4 +1,4 @@
-% Create script to generate XML from input.
+% Create script to generate XML.
 %
 % Chinasa Okolo (chinasa.okolo@pomona.edu)
 %
